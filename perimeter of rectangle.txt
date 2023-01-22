@@ -1,0 +1,11 @@
+/*write a program to calculate perimeter of a rectangle,take sides from the user*/
+#include <stdio.h>
+int main(){
+int a,b;
+printf("enter the side 'a':\n");
+scanf("%d",&a);
+printf("enter the side 'b':");
+scanf("%d",&b);
+printf("%d",2*(a+b));
+return 0;
+}

@@ -1,0 +1,27 @@
+wap to take input and if amount>1000 print 10 per expense
+ #include <stdio.h>
+int main()
+{
+ int amount;
+ printf("enter the amount:");
+ scanf("%d",&amount);
+ if (amount>1000){
+ int expense= amount-(amount*10/100);
+ printf("%d",expense);
+}
+ return 0;
+}
+
+
+take current year and joining year as input from user if working year >=3 print u r eligible for bonus
+int main(){
+	int current_year,joining_year;
+	printf("enter current year:");
+	scanf("%d",&current_year);
+	printf("enter joining year");
+	scanf("%d",&joining_year);
+	if (current_year - joining_year>=3){
+		printf("you are eligible for bonus rs 2500");
+	}
+	return 0;
+}

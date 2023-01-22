@@ -1,0 +1,19 @@
+/*#include <stdio.h>
+int main()
+{
+	int m1,m2,m3,m4,m5;
+	printf("enter the marks of first subject");
+	scanf("%d",&m1);
+	printf("enter the marks of second subject");
+	scanf("%d",&m2);
+	printf("enter the marks of third subject");
+	scanf("%d",&m3);
+	printf("enter the marks of fourth subject");
+	scanf("%d",&m4);
+	printf("enter the marks of fifth subject");
+	scanf("%d",&m5);
+	int total_number =(m1+m2+m3+m4+m5);
+	float per =total_number/500*100;
+	printf("%f",per);
+    return 0;
+}*/
