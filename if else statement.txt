@@ -1,0 +1,14 @@
+take scope as input from user if scope =8 print use snipers else print invalid scope
+#include <stdio.h>
+int main(){
+	int a;
+	printf("enter scope:\n");
+	scanf("%d",&a);
+	if (a==8){
+	   printf("use snippers awm/");
+	}
+    else {
+    	printf("invalid scope");
+	}
+	return 0;
+}
